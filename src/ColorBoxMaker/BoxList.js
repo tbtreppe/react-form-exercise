@@ -8,6 +8,7 @@ function BoxList() {
     setBoxes((boxes) => [...boxes, boxObj]);
   };
   const remove = (id) => {
+    console.log("hello");
     setBoxes((boxes) => boxes.filter((box) => box.id !== id));
   };
   const renderBoxes = boxes.map((box) => (

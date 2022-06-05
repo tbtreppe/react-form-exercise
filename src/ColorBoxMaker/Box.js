@@ -17,7 +17,7 @@ function Box({
           backgroundColor,
         }}
       />
-      <button onclick={remove}>X</button>
+      <button onClick={remove}>X</button>
     </div>
   );
 }
