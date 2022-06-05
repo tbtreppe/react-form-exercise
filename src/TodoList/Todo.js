@@ -9,7 +9,7 @@ function Todo({ task = "first task!", id = "1", remove }) {
         <li>task: {task}</li>
       </ul>
 
-      <button onclick={handleDelete}>X</button>
+      <button onClick={handleDelete}>X</button>
     </div>
   );
 }
